@@ -3,6 +3,11 @@ import pandas as pd
 import numpy as np
 import pydeck as pdk
 
+st.set_page_config(
+    page_title="Map Example",
+    page_icon="🌎"
+)
+
 latitude = 40
 longitude = -110
 
